@@ -1,0 +1,6 @@
+C:\WPFapps\Work Scheduler\Work Scheduler\bin\Release\netcoreapp3.1\publish\Work Scheduler.exe
+C:\WPFapps\Work Scheduler\Work Scheduler\bin\Release\netcoreapp3.1\publish\Work Scheduler.dll
+C:\WPFapps\Work Scheduler\Work Scheduler\bin\Release\netcoreapp3.1\publish\Work Scheduler.deps.json
+C:\WPFapps\Work Scheduler\Work Scheduler\bin\Release\netcoreapp3.1\publish\Work Scheduler.runtimeconfig.json
+C:\WPFapps\Work Scheduler\Work Scheduler\bin\Release\netcoreapp3.1\publish\Work Scheduler.pdb
+C:\WPFapps\Work Scheduler\Work Scheduler\bin\Release\netcoreapp3.1\publish\Interop.Microsoft.Office.Interop.Excel.dll

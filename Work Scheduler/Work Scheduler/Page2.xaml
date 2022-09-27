@@ -1,0 +1,341 @@
+﻿<Page x:Class="Work_Scheduler.Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Work_Scheduler"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page2">
+
+    <Grid>
+		<TextBlock x:Name="Console2" HorizontalAlignment="Stretch" Height="38" Margin="10,26,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="600"/>
+		<ComboBox x:Name="Year" HorizontalAlignment="Left" Width="50" Height="20" VerticalAlignment="Top" Margin="200,100" IsEditable="True">
+			<ComboBoxItem Content="2022" />
+			<ComboBoxItem Content="2023" />
+			<ComboBoxItem Content="2024" />
+			<ComboBoxItem Content="2025" />
+			<ComboBoxItem Content="2026" />
+		</ComboBox>
+		<ComboBox x:Name="Month" HorizontalAlignment="Left" Width="50" Height="20" VerticalAlignment="Top" Margin="300,100" IsEditable="True">
+			<ComboBoxItem Content="1" />
+			<ComboBoxItem Content="2" />
+			<ComboBoxItem Content="3" />
+			<ComboBoxItem Content="4" />
+			<ComboBoxItem Content="5" />
+			<ComboBoxItem Content="6" />
+			<ComboBoxItem Content="7" />
+			<ComboBoxItem Content="8" />
+			<ComboBoxItem Content="9" />
+			<ComboBoxItem Content="10" />
+			<ComboBoxItem Content="11" />
+			<ComboBoxItem Content="12" />
+		</ComboBox>
+		<ComboBox x:Name="Day" HorizontalAlignment="Left" Width="50" Height="20" VerticalAlignment="Top" Margin="400,100,0,1" IsEditable="True">
+			<ComboBoxItem Content="1" />
+			<ComboBoxItem Content="2" />
+			<ComboBoxItem Content="3" />
+			<ComboBoxItem Content="4" />
+			<ComboBoxItem Content="5" />
+			<ComboBoxItem Content="6" />
+			<ComboBoxItem Content="7" />
+			<ComboBoxItem Content="8" />
+			<ComboBoxItem Content="9" />
+			<ComboBoxItem Content="10" />
+			<ComboBoxItem Content="11" />
+			<ComboBoxItem Content="12" />
+			<ComboBoxItem Content="13" />
+			<ComboBoxItem Content="14" />
+			<ComboBoxItem Content="15" />
+			<ComboBoxItem Content="16" />
+			<ComboBoxItem Content="17" />
+			<ComboBoxItem Content="18" />
+			<ComboBoxItem Content="19" />
+			<ComboBoxItem Content="20" />
+			<ComboBoxItem Content="21" />
+			<ComboBoxItem Content="22" />
+			<ComboBoxItem Content="23" />
+			<ComboBoxItem Content="24" />
+			<ComboBoxItem Content="25" />
+			<ComboBoxItem Content="26" />
+			<ComboBoxItem Content="27" />
+			<ComboBoxItem Content="28" />
+			<ComboBoxItem Content="29" />
+			<ComboBoxItem Content="30" />
+			<ComboBoxItem Content="31" />
+			</ComboBox>
+		<ComboBox x:Name="Hour" HorizontalAlignment="Left" Width="50" Height="20" VerticalAlignment="Top" Margin="500,100,0,1" SelectedIndex="-1" IsEditable="True" Visibility="Visible">
+			<ComboBoxItem Content="00" />
+			<ComboBoxItem Content="01" />
+			<ComboBoxItem Content="02" />
+			<ComboBoxItem Content="03" />
+			<ComboBoxItem Content="04" />
+			<ComboBoxItem Content="05" />
+			<ComboBoxItem Content="06" />
+			<ComboBoxItem Content="07" />
+			<ComboBoxItem Content="08" />
+			<ComboBoxItem Content="09" />
+			<ComboBoxItem Content="10" />
+			<ComboBoxItem Content="11" />
+			<ComboBoxItem Content="12" />
+			<ComboBoxItem Content="13" />
+			<ComboBoxItem Content="14" />
+			<ComboBoxItem Content="15" />
+			<ComboBoxItem Content="16" />
+			<ComboBoxItem Content="17" />
+			<ComboBoxItem Content="18" />
+			<ComboBoxItem Content="19" />
+			<ComboBoxItem Content="20" />
+			<ComboBoxItem Content="21" />
+			<ComboBoxItem Content="22" />
+			<ComboBoxItem Content="23" />
+			<ComboBoxItem Content="24" />
+		</ComboBox>
+		<ComboBox x:Name="Minute" HorizontalAlignment="Left" Width="50" Height="20" VerticalAlignment="Top" Margin="600,100,0,1" IsEditable="True">
+			<ComboBoxItem Content="00" />
+			<ComboBoxItem Content="01" />
+			<ComboBoxItem Content="02" />
+			<ComboBoxItem Content="03" />
+			<ComboBoxItem Content="04" />
+			<ComboBoxItem Content="05" />
+			<ComboBoxItem Content="06" />
+			<ComboBoxItem Content="07" />
+			<ComboBoxItem Content="08" />
+			<ComboBoxItem Content="09" />
+			<ComboBoxItem Content="10" />
+			<ComboBoxItem Content="11" />
+			<ComboBoxItem Content="12" />
+			<ComboBoxItem Content="13" />
+			<ComboBoxItem Content="14" />
+			<ComboBoxItem Content="15" />
+			<ComboBoxItem Content="16" />
+			<ComboBoxItem Content="17" />
+			<ComboBoxItem Content="18" />
+			<ComboBoxItem Content="19" />
+			<ComboBoxItem Content="20" />
+			<ComboBoxItem Content="21" />
+			<ComboBoxItem Content="22" />
+			<ComboBoxItem Content="23" />
+			<ComboBoxItem Content="24" />
+			<ComboBoxItem Content="25" />
+			<ComboBoxItem Content="26" />
+			<ComboBoxItem Content="27" />
+			<ComboBoxItem Content="28" />
+			<ComboBoxItem Content="29" />
+			<ComboBoxItem Content="30" />
+			<ComboBoxItem Content="31" />
+			<ComboBoxItem Content="32" />
+			<ComboBoxItem Content="33" />
+			<ComboBoxItem Content="34" />
+			<ComboBoxItem Content="35" />
+			<ComboBoxItem Content="36" />
+			<ComboBoxItem Content="37" />
+			<ComboBoxItem Content="38" />
+			<ComboBoxItem Content="39" />
+			<ComboBoxItem Content="40" />
+			<ComboBoxItem Content="41" />
+			<ComboBoxItem Content="42" />
+			<ComboBoxItem Content="43" />
+			<ComboBoxItem Content="44" />
+			<ComboBoxItem Content="45" />
+			<ComboBoxItem Content="46" />
+			<ComboBoxItem Content="47" />
+			<ComboBoxItem Content="48" />
+			<ComboBoxItem Content="49" />
+			<ComboBoxItem Content="50" />
+			<ComboBoxItem Content="51" />
+			<ComboBoxItem Content="52" />
+			<ComboBoxItem Content="53" />
+			<ComboBoxItem Content="54" />
+			<ComboBoxItem Content="55" />
+			<ComboBoxItem Content="56" />
+			<ComboBoxItem Content="57" />
+			<ComboBoxItem Content="58" />
+			<ComboBoxItem Content="59" />
+		</ComboBox>
+		<TextBlock HorizontalAlignment="Left" Width="70" Height="20" VerticalAlignment="Top" Margin="130,100">
+			勤務開始:
+		</TextBlock>
+		<TextBlock HorizontalAlignment="Left" Width="30" Height="20" VerticalAlignment="Top" Margin="260,100">
+			年
+		</TextBlock>
+		<TextBlock HorizontalAlignment="Left" Width="30" Height="20" VerticalAlignment="Top" Margin="360,100">
+			月
+		</TextBlock>
+		<TextBlock HorizontalAlignment="Left" Width="30" Height="20" VerticalAlignment="Top" Margin="460,100,0,1">
+			日
+		</TextBlock>
+		<TextBlock HorizontalAlignment="Left" Width="30" Height="20" VerticalAlignment="Top" Margin="560,100,0,1">
+			時
+		</TextBlock>
+		<TextBlock HorizontalAlignment="Left" Width="30" Height="20" VerticalAlignment="Top" Margin="660,100,0,1">
+			分
+		</TextBlock>
+		<ComboBox x:Name="EYear" HorizontalAlignment="Left" Width="50" Height="20" VerticalAlignment="Top" Margin="200,150,0,1" IsEditable="True">
+			<ComboBoxItem Content="2022" />
+			<ComboBoxItem Content="2023" />
+			<ComboBoxItem Content="2024" />
+			<ComboBoxItem Content="2025" />
+			<ComboBoxItem Content="2026" />
+		</ComboBox>
+		<ComboBox x:Name="EMonth" HorizontalAlignment="Left" Width="50" Height="20" VerticalAlignment="Top" Margin="300,150,0,1" IsEditable="True">
+			<ComboBoxItem Content="1" />
+			<ComboBoxItem Content="2" />
+			<ComboBoxItem Content="3" />
+			<ComboBoxItem Content="4" />
+			<ComboBoxItem Content="5" />
+			<ComboBoxItem Content="6" />
+			<ComboBoxItem Content="7" />
+			<ComboBoxItem Content="8" />
+			<ComboBoxItem Content="9" />
+			<ComboBoxItem Content="10" />
+			<ComboBoxItem Content="11" />
+			<ComboBoxItem Content="12" />
+		</ComboBox>
+		<ComboBox x:Name="EDay" HorizontalAlignment="Left" Width="50" Height="20" VerticalAlignment="Top" Margin="400,150,0,1" IsEditable="True">
+			<ComboBoxItem Content="1" />
+			<ComboBoxItem Content="2" />
+			<ComboBoxItem Content="3" />
+			<ComboBoxItem Content="4" />
+			<ComboBoxItem Content="5" />
+			<ComboBoxItem Content="6" />
+			<ComboBoxItem Content="7" />
+			<ComboBoxItem Content="8" />
+			<ComboBoxItem Content="9" />
+			<ComboBoxItem Content="10" />
+			<ComboBoxItem Content="11" />
+			<ComboBoxItem Content="12" />
+			<ComboBoxItem Content="13" />
+			<ComboBoxItem Content="14" />
+			<ComboBoxItem Content="15" />
+			<ComboBoxItem Content="16" />
+			<ComboBoxItem Content="17" />
+			<ComboBoxItem Content="18" />
+			<ComboBoxItem Content="19" />
+			<ComboBoxItem Content="20" />
+			<ComboBoxItem Content="21" />
+			<ComboBoxItem Content="22" />
+			<ComboBoxItem Content="23" />
+			<ComboBoxItem Content="24" />
+			<ComboBoxItem Content="25" />
+			<ComboBoxItem Content="26" />
+			<ComboBoxItem Content="27" />
+			<ComboBoxItem Content="28" />
+			<ComboBoxItem Content="29" />
+			<ComboBoxItem Content="30" />
+			<ComboBoxItem Content="31" />
+		</ComboBox>
+		<ComboBox x:Name="EHour" HorizontalAlignment="Left" Width="50" Height="20" VerticalAlignment="Top" Margin="500,150,0,1" SelectedIndex="-1" IsEditable="True" Visibility="Visible">
+			<ComboBoxItem Content="00" />
+			<ComboBoxItem Content="01" />
+			<ComboBoxItem Content="02" />
+			<ComboBoxItem Content="03" />
+			<ComboBoxItem Content="04" />
+			<ComboBoxItem Content="05" />
+			<ComboBoxItem Content="06" />
+			<ComboBoxItem Content="07" />
+			<ComboBoxItem Content="08" />
+			<ComboBoxItem Content="09" />
+			<ComboBoxItem Content="10" />
+			<ComboBoxItem Content="11" />
+			<ComboBoxItem Content="12" />
+			<ComboBoxItem Content="13" />
+			<ComboBoxItem Content="14" />
+			<ComboBoxItem Content="15" />
+			<ComboBoxItem Content="16" />
+			<ComboBoxItem Content="17" />
+			<ComboBoxItem Content="18" />
+			<ComboBoxItem Content="19" />
+			<ComboBoxItem Content="20" />
+			<ComboBoxItem Content="21" />
+			<ComboBoxItem Content="22" />
+			<ComboBoxItem Content="23" />
+		</ComboBox>
+		<ComboBox x:Name="EMinute" HorizontalAlignment="Left" Width="50" Height="20" VerticalAlignment="Top" Margin="600,150,0,1" IsEditable="True">
+			<ComboBoxItem Content="00" />
+			<ComboBoxItem Content="01" />
+			<ComboBoxItem Content="02" />
+			<ComboBoxItem Content="03" />
+			<ComboBoxItem Content="04" />
+			<ComboBoxItem Content="05" />
+			<ComboBoxItem Content="06" />
+			<ComboBoxItem Content="07" />
+			<ComboBoxItem Content="08" />
+			<ComboBoxItem Content="09" />
+			<ComboBoxItem Content="10" />
+			<ComboBoxItem Content="11" />
+			<ComboBoxItem Content="12" />
+			<ComboBoxItem Content="13" />
+			<ComboBoxItem Content="14" />
+			<ComboBoxItem Content="15" />
+			<ComboBoxItem Content="16" />
+			<ComboBoxItem Content="17" />
+			<ComboBoxItem Content="18" />
+			<ComboBoxItem Content="19" />
+			<ComboBoxItem Content="20" />
+			<ComboBoxItem Content="21" />
+			<ComboBoxItem Content="22" />
+			<ComboBoxItem Content="23" />
+			<ComboBoxItem Content="24" />
+			<ComboBoxItem Content="25" />
+			<ComboBoxItem Content="26" />
+			<ComboBoxItem Content="27" />
+			<ComboBoxItem Content="28" />
+			<ComboBoxItem Content="29" />
+			<ComboBoxItem Content="30" />
+			<ComboBoxItem Content="31" />
+			<ComboBoxItem Content="32" />
+			<ComboBoxItem Content="33" />
+			<ComboBoxItem Content="34" />
+			<ComboBoxItem Content="35" />
+			<ComboBoxItem Content="36" />
+			<ComboBoxItem Content="37" />
+			<ComboBoxItem Content="38" />
+			<ComboBoxItem Content="39" />
+			<ComboBoxItem Content="40" />
+			<ComboBoxItem Content="41" />
+			<ComboBoxItem Content="42" />
+			<ComboBoxItem Content="43" />
+			<ComboBoxItem Content="44" />
+			<ComboBoxItem Content="45" />
+			<ComboBoxItem Content="46" />
+			<ComboBoxItem Content="47" />
+			<ComboBoxItem Content="48" />
+			<ComboBoxItem Content="49" />
+			<ComboBoxItem Content="50" />
+			<ComboBoxItem Content="51" />
+			<ComboBoxItem Content="52" />
+			<ComboBoxItem Content="53" />
+			<ComboBoxItem Content="54" />
+			<ComboBoxItem Content="55" />
+			<ComboBoxItem Content="56" />
+			<ComboBoxItem Content="57" />
+			<ComboBoxItem Content="58" />
+			<ComboBoxItem Content="59" />
+		</ComboBox>
+		<TextBlock HorizontalAlignment="Left" Width="70" Height="20" VerticalAlignment="Top" Margin="130,150,0,1">
+			勤務終了:
+		</TextBlock>
+		<TextBlock HorizontalAlignment="Left" Width="30" Height="20" VerticalAlignment="Top" Margin="260,150,0,1">
+			年
+		</TextBlock>
+		<TextBlock HorizontalAlignment="Left" Width="30" Height="20" VerticalAlignment="Top" Margin="360,150,0,1">
+			月
+		</TextBlock>
+		<TextBlock HorizontalAlignment="Left" Width="30" Height="20" VerticalAlignment="Top" Margin="460,150,0,1">
+			日
+		</TextBlock>
+		<TextBlock HorizontalAlignment="Left" Width="30" Height="20" VerticalAlignment="Top" Margin="560,150,0,1">
+			時
+		</TextBlock>
+		<TextBlock HorizontalAlignment="Left" Width="30" Height="20" VerticalAlignment="Top" Margin="660,150,0,1">
+			分
+		</TextBlock>
+		<Button x:Name="copy" Content="copy" Width="60" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="130,185,135,1" Click="Button_Clickp2"/>
+		<Button x:Name="NowTime" Content="現在時刻" Width="60" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="130,185,545,1" Click="Button_Clickp2"/>
+		<Button x:Name="Registration" Content="登録" Width="60" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="130,185,340,1" Click="Button_Clickp2"/>
+		<Button x:Name="End" Content="終了" Width="60" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="130,370,135,1" Click="Button_Clickp2"/>
+		<Button x:Name="Load" Content="読み込み" Width="60" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="130,370,230,1" Click="Button_Clickp2"/>
+		<ListBox x:Name="EditLog" HorizontalAlignment="Center" Height="130" Margin="0,220,0,0" VerticalAlignment="Top" Width="600"/>
+	</Grid>
+</Page>

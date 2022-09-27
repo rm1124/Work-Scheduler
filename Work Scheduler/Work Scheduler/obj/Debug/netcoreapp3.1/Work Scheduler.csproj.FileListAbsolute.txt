@@ -1,0 +1,27 @@
+C:\WPFapps\Work Scheduler\Work Scheduler\bin\Debug\netcoreapp3.1\Work Scheduler.exe
+C:\WPFapps\Work Scheduler\Work Scheduler\bin\Debug\netcoreapp3.1\Work Scheduler.deps.json
+C:\WPFapps\Work Scheduler\Work Scheduler\bin\Debug\netcoreapp3.1\Work Scheduler.runtimeconfig.json
+C:\WPFapps\Work Scheduler\Work Scheduler\bin\Debug\netcoreapp3.1\Work Scheduler.runtimeconfig.dev.json
+C:\WPFapps\Work Scheduler\Work Scheduler\bin\Debug\netcoreapp3.1\Work Scheduler.dll
+C:\WPFapps\Work Scheduler\Work Scheduler\bin\Debug\netcoreapp3.1\Work Scheduler.pdb
+C:\WPFapps\Work Scheduler\Work Scheduler\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\WPFapps\Work Scheduler\Work Scheduler\obj\Debug\netcoreapp3.1\Page1.g.cs
+C:\WPFapps\Work Scheduler\Work Scheduler\obj\Debug\netcoreapp3.1\App.g.cs
+C:\WPFapps\Work Scheduler\Work Scheduler\obj\Debug\netcoreapp3.1\Work Scheduler_MarkupCompile.cache
+C:\WPFapps\Work Scheduler\Work Scheduler\obj\Debug\netcoreapp3.1\Work Scheduler_MarkupCompile.lref
+C:\WPFapps\Work Scheduler\Work Scheduler\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\WPFapps\Work Scheduler\Work Scheduler\obj\Debug\netcoreapp3.1\Page1.baml
+C:\WPFapps\Work Scheduler\Work Scheduler\obj\Debug\netcoreapp3.1\Work Scheduler.g.resources
+C:\WPFapps\Work Scheduler\Work Scheduler\obj\Debug\netcoreapp3.1\Work Scheduler.GeneratedMSBuildEditorConfig.editorconfig
+C:\WPFapps\Work Scheduler\Work Scheduler\obj\Debug\netcoreapp3.1\Work Scheduler.AssemblyInfoInputs.cache
+C:\WPFapps\Work Scheduler\Work Scheduler\obj\Debug\netcoreapp3.1\Work Scheduler.AssemblyInfo.cs
+C:\WPFapps\Work Scheduler\Work Scheduler\obj\Debug\netcoreapp3.1\Work Scheduler.csproj.CoreCompileInputs.cache
+C:\WPFapps\Work Scheduler\Work Scheduler\obj\Debug\netcoreapp3.1\Work Scheduler.dll
+C:\WPFapps\Work Scheduler\Work Scheduler\obj\Debug\netcoreapp3.1\Work Scheduler.pdb
+C:\WPFapps\Work Scheduler\Work Scheduler\obj\Debug\netcoreapp3.1\Work Scheduler.genruntimeconfig.cache
+C:\WPFapps\Work Scheduler\Work Scheduler\obj\Debug\netcoreapp3.1\Page2.g.cs
+C:\WPFapps\Work Scheduler\Work Scheduler\obj\Debug\netcoreapp3.1\Page2.baml
+C:\WPFapps\Work Scheduler\Work Scheduler\obj\Debug\netcoreapp3.1\Work Scheduler.csproj.AssemblyReference.cache
+C:\WPFapps\Work Scheduler\Work Scheduler\bin\Debug\netcoreapp3.1\Interop.Microsoft.Office.Interop.Excel.dll
+C:\WPFapps\Work Scheduler\Work Scheduler\obj\Debug\netcoreapp3.1\Interop.Microsoft.Office.Interop.Excel.dll
+C:\WPFapps\Work Scheduler\Work Scheduler\obj\Debug\netcoreapp3.1\Work Scheduler.csproj.ResolveComReference.cache

@@ -5,6 +5,6 @@
 
 fliesフォルダ内に編集ファイルを配置し、vs.txtとstatus.txtの内容を書き換える必要があります。詳しくはこちらをご覧ください。
 
-
+https://qiita.com/rm1124/items/31d899fa99f208b580d1
 
 WindowsOSでのみ動作を確認しております。
